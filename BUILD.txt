@@ -1,0 +1,13 @@
+
+Note: The included projects have been natively built with VS2003.
+
+As the minimum, you will have to build the following projects:
+- TextureViewer\TextureViewer.vcproj
+- PLib\Plib.vcproj (see the instructions in the asm/ folder to build the assembly code)
+
+The projects in the formats/ directory can be built depending on your own needs:
+- Formats\formats.sln (I've put it to a .zip archive, because there were errors loading the projects on VS2022 while using the solutions from VS2003)
+- Probably you will first have to build the corresonding 3-rd party libraries (see prereq.sln in the same .zip archive)
+
+The results are placed into Build\
+Note: If you don't build some format DLL, the corresponding .ini file from the Build/formats/ directory should be removed (otherwise a missing .dll error will be raised)
