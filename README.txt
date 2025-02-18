@@ -18,7 +18,7 @@ Some of the features:
 Authors:
 
 
-- Programming by Ilya Luytin (lyutinilya551@gmail.com)
+- Programming by Ilya Luytin
 
 - The idea was inspired by the Windows Texture Viewer (WTV, a tool by NVIDIA)
 
